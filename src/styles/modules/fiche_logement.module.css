@@ -1,0 +1,51 @@
+
+.contener_details {
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    margin-left: 4%;
+}
+.contener_title {
+width: 75%;
+margin-top: 20px;
+}
+
+.contener_collapse {
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+.description, .equipements {
+width: 50%;
+position: relative;
+right: 0.5%;
+}
+.txt_equipements, .txt_description{
+margin: 5px;
+padding-left: 10px;
+}
+@media screen and (max-width: 762px) {
+.contener_details{
+flex-direction: column;
+}
+.contener_user_stars{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+margin-left: 11px;
+}
+.contener_title{
+width: 100%;
+margin-top: 0px;
+height: 100px;
+}
+.contener_collapse{
+flex-direction: column;
+
+}
+.description, .equipements{
+width: 100%;
+margin-bottom: 20px;
+}
+}

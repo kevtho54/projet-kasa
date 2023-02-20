@@ -1,0 +1,35 @@
+.contener_tags {
+    display: flex;
+    gap: 1%;
+    position: relative;
+    left: 3%;
+    top: -30px;
+    width: 80%;
+}
+
+.tags {
+    background: #FF6060;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 142.6%;
+text-align: center;
+color: #FFFFFF;
+border-radius: 10px;
+padding: 5px 22px;
+}
+
+@media screen and (max-width: 762px) {
+.contener_tags{
+gap: 5%;
+flex-wrap: wrap;
+width: 100%;
+}
+.tags{
+font-size: 8px;
+white-space: nowrap;
+padding: 2px 10px;
+}
+}

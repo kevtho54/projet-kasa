@@ -1,0 +1,11 @@
+html{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+   padding-right: 100px;
+    padding-left: 100px;
+    box-sizing: border-box;
+    border: solid red 2px;
+    background: #FFFFFF;
+    margin: 0
+}

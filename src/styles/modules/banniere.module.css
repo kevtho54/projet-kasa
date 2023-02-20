@@ -1,0 +1,91 @@
+.contener_banniere {
+    position:relative;
+    width: 90%;
+    height: 223px;
+    left: 69px;
+}
+.banniere{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 96%;
+    height: 223px;
+    border-radius: 25px;
+    z-index:-1;
+    object-fit: cover;
+}
+.background{
+    background: #000000;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+    border-radius: 25px;
+    width: 96%;
+    height: 223px;
+}
+.txt_banniere {
+    position: absolute;
+    top: 29%;
+    left:48%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 142.6%;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+.contener_banniere{
+left: 65px;
+top: 13px;
+}
+}
+@media only screen and (min-width: 762px) and (max-width: 992px) {
+.contener_banniere{
+left: 59px;
+top: 25px;
+}
+.txt_banniere {
+font-size: 32px;
+top: 32%;
+}
+.contener_banniere, .background, .banniere {
+height: 165px;
+}
+}
+
+@media only screen and (max-width: 761px){
+    .contener_banniere{
+    height: 100px;
+    left:5%;
+    top: -30px;
+    width: 90%;
+    border-radius: 10px;
+}
+.background, .banniere {
+height: 124px;
+width: 100%;
+border-radius: 10px;
+}
+.txt_banniere {
+    font-size: 24px;
+    left: 40%;
+    top: 34%;
+  width: 69%;
+}
+}
+@media only screen and (min-width: 579px) and (max-width: 761px) {
+.txt_banniere{
+left: 50%;
+}
+}
+@media only screen and (max-width: 761px){
+    .banniere_about{
+    border: 5px solid yellow;
+}
+}

@@ -1,0 +1,42 @@
+.contener_details {
+position: relative;
+display:flex;
+flex-direction: column;
+left: 3%;
+top: -30px;
+width: 90%;
+}
+
+.title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;    
+    color: #FF6060;
+    margin-bottom: 0;
+    width: 100%;
+}
+.location {
+color: #FF6060;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 142.6%;
+margin-top: 10px;
+width: 100%;
+}
+@media screen and (min-width: 763px) and (max-width: 992px){
+.title {
+font-size: 30px;
+}
+}
+@media screen and (max-width: 762px) {
+.title {
+font-size: 18px;
+}
+.location{
+font-size: 14px;
+}
+}

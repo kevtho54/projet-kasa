@@ -1,0 +1,19 @@
+.stars_color{
+    font-size: 40px;
+    color: #FF6060;
+}
+
+.rating {
+font-size: 40px;
+color: gray;
+margin-top:12px;
+}    
+@media screen and (max-width: 762px) {
+
+.rating, .stars_color {
+ font-size: 20px; 
+   
+  
+}
+
+}
