@@ -28,7 +28,7 @@ function FicheLogements() {
       <Header />
       <Carrousel logement={logement} />
 
-      <div className={style.contener_details}>
+      <section className={style.contener_details}>
         <div className={style.contener_title}>
           <LogementDetails logement={logement} />
           <Tags logement={logement} />
@@ -37,9 +37,9 @@ function FicheLogements() {
           <Users logement={logement} />
           <Rating logement={logement} />
         </div>
-      </div>
+      </section>
 
-      <div className={style.contener_collapse}>
+      <section className={style.contener_collapse}>
         <div className={style.description}>
           <Collapse
             title="Déscription"
@@ -58,7 +58,7 @@ function FicheLogements() {
             ))}
           />
         </div>
-      </div>
+      </section>
       <Footer />
     </div>
   );

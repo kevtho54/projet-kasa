@@ -18,7 +18,7 @@ function About() {
           displayText={false}
         />
       </div>
-      <div className={style.contener}>
+      <main className={style.contener}>
         <div className="contener_dropdown">
           <Collapse
             title="Fiabilité"
@@ -52,7 +52,7 @@ function About() {
           Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."
           />
         </div>
-      </div>
+      </main>
       <Footer />
     </div>
   );
